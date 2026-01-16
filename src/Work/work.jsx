@@ -1,20 +1,18 @@
 import styles from '../css/work.module.css';
 import '../css/font.css';
 import { useState } from 'react';
+import logo from "../image/icons/strategic-plan.png"
 export function Work() {
     const [isHovering, setIsHovering] = useState(Array(5).fill(false));
 
     function handleMouseEnter(id) {
         const nextArray = isHovering.slice();
         console.log(id);
-
-
         nextArray[id] = true;
         setIsHovering(nextArray);
 
     }
     function handleMouseLeave({ id }) {
-
         const nextArray = isHovering.slice();
         nextArray[id] = false;
         setIsHovering(nextArray);
@@ -32,14 +30,14 @@ export function Work() {
             framework: "React",
             name: "Tic Tac Toe",
             description: "Tic Tac Toe is a two-player game where players take turns marking X and O on a 3*3 grid, aiming to get three in a row.",
-            src: "public/icons/strategic-plan.png",
+            src: logo,
         },
         {
             id: 1,
             framework: "React",
             name: "Tic Tac Toe",
             description: "Tic Tac Toe is a two-player game where players take turns marking X and O on a 3*3 grid, aiming to get three in a row.",
-            src: "public/icons/strategic-plan.png",
+            src: logo,
 
         },
         {
@@ -47,13 +45,13 @@ export function Work() {
             framework: "React",
             name: "Currency Exchange App",
             description: "Tic Tac Toe is a two-player game where players take turns marking X and O on a 3*3 grid, aiming to get three in a row.",
-            src: "public/icons/strategic-plan.png",
+            src: logo,
         }, {
             id: 3,
             framework: "React",
             name: "Spotify Playlist Save App",
             description: "Tic Tac Toe is a two-player game where players take turns marking X and O on a 3*3 grid, aiming to get three in a row.",
-            src: "public/icons/strategic-plan.png",
+            src: logo,
 
         },
         {
@@ -61,7 +59,7 @@ export function Work() {
             framework: "React",
             name: "Reddit Client App",
             description: "Tic Tac Toe is a two-player game where players take turns marking X and O on a 3*3 grid, aiming to get three in a row.",
-            src: "public/icons/strategic-plan.png",
+            src: logo,
         },
     ]
 
