@@ -1,24 +1,27 @@
 import styles from '../css/tools.module.css';
 import {useState, useEffect} from "react";
-
+import HtmlLogo from "../image/icons/html.png";
+import cssLogo from "../image/icons/css-3.png";
+import jsLogo from "../image/icons/js.png";
+import reactLogo from "../image/icons/sciene.png";
+import tsLogo from "../image/icons/typescript.png";
+import nodeLogo from '../image/icons/programing.png';
 import '../css/font.css'
 export function Tools() {
     const [reducedMotion, setReducedMotion] = useState(false);
     const images = [
-        "src/image/icons/html.png ",
-        "src/image/icons/js.png",
-        'src/image/icons/sciene.png',
-        "src/image/icons/github.png",
-        'src/image/icons/typescript.png',
-        'src/image/icons/programing.png',
-        "src/image/icons/html.png",
-        'src/image/icons/css-3.png',
-        "src/image/icons/js.png",
-        'src/image/icons/sciene.png',
-        "src/image/icons/github.png",
-        'src/image/icons/typescript.png',
-        'src/image/icons/programing.png',
-         
+        HtmlLogo,
+        cssLogo,
+        jsLogo,
+        reactLogo,
+        tsLogo,
+        nodeLogo,
+         HtmlLogo,
+        cssLogo,
+        jsLogo,
+        reactLogo,
+        tsLogo,
+        nodeLogo  
     ]
     return (
         <>

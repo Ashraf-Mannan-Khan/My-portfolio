@@ -1,5 +1,5 @@
 import styles from '../css/contact.module.css';
-
+import contactImage from "../image/icons/connect.avif";
 export function Contact () {
 
     return (
