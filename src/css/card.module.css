@@ -46,7 +46,8 @@
     height: auto;
     transform: rotate(0);
     margin-inline: auto;
-    margin-block: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 4.5rem;
   }
 
   .img_container {
