@@ -1,42 +1,47 @@
-import { useState } from 'react';
-import { Card } from './Card/card';
-import { Header } from './header/header';
-import { Body } from './Body/body';
-import { Tools } from './tools/tools';
-import { Work } from './Work/work';
-import { Contact } from './contact/contact';
-import { About } from './about/about';
-import { RouterProvider, createBrowserRouter, Route, createRoutesFromElements } from 'react-router-dom';
-const router = createBrowserRouter(createRoutesFromElements(
-  <>
-    <Route path='/' element={<Header>
-      <Body>
-        <Card/>
-      </Body>
+import { useState } from "react";
+import { Card } from "./Card/card";
+import { Header } from "./header/header";
+import { Body } from "./Body/body";
+import { Tools } from "./tools/tools";
+import { Work } from "./Work/work";
+import { Contact } from "./contact/contact";
+import { About } from "./about/about";
+
+import {
+  RouterProvider,
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  Outlet,
+  Routes,
+} from "react-router-dom";
+
+const MainLayout = () => {
+  return (
+    <>
+      <Header />
+      <Outlet />
       <Tools />
       <Work />
       <Contact />
-    </Header>
-    } >
-
+    </>
+  );
+};
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<Body />} />
+      <Route path="about" element={<About />} />
     </Route>
+  )
+);
 
-    < Route path='/about' element={
-      <Header>
-        <About />
-        <Contact />
-      </Header>
-    } />
-
-
-  </>
-
-));
 function App() {
-
   return (
-    <RouterProvider router={router} />
+    <>
+     <RouterProvider router={router} />
+    </>
   );
 }
 
-export default App
+export default App;

@@ -1,0 +1,98 @@
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.conatiner h2 {
+  font-family: monospace;
+  margin-bottom: 1rem;
+  font-size: clamp(20px, 5vw, 32px);
+}
+.conatiner > p {
+  font-family: monospace;
+  margin-bottom: 1rem;
+  color: grey;
+  font-size: larger;
+}
+
+.image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.information {
+  display: flex;
+  gap: 2rem;
+  border: 1px solid rgb(136, 86, 253);
+  padding: 20px 20px;
+  width: 75%;
+
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.information > p {
+  font-size: clamp(12px,2.75vw, 20px );
+  position: relative;
+}
+
+.information:hover {
+  box-shadow: 0px 8px 0px 0px rgb(136, 86, 253);
+}
+
+.information p:last-child {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.information p:last-child::after {
+  content: "→";
+  opacity: 0;
+  margin-left: 8px;
+  transform: translateX(-6px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.information:hover p:last-child:after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+footer h2 {
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: 400;
+}
+footer p {
+  padding: 2px;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: clamp(8px, 2.5vw, 12px);
+  color: grey;
+  text-align: center;
+  text-align-last: center;
+}
