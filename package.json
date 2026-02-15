@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ashraf-mannan-khan.github.io/my-portfolio/",
+
   "name": "package.json",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +7,6 @@
  "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
   "lint": "eslint .",
   "preview": "vite preview"
 },
