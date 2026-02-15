@@ -1,0 +1,101 @@
+.cardSection {
+  outline: 2px solid lime;
+}
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.conatiner h2 {
+  font-family: monospace;
+  margin-bottom: 1rem;
+  font-size: 32px;
+}
+.conatiner > p {
+  font-family: monospace;
+  margin-bottom: 1rem;
+  color: grey;
+  font-size: larger;
+}
+
+.image {
+  max-width: 500px;
+  width: 50%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(136, 86, 253);
+  padding: 20px 20px;
+  max-width: 500px;
+  width: 60%;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  gap: 10rem;
+  text-decoration: none;
+}
+
+.information > p {
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(136, 86, 253);
+}
+.leftMargin {
+  margin-left: -1.5rem;
+}
+
+.information:hover {
+  box-shadow: 0px 8px 0px 0px rgb(136, 86, 253);
+}
+.information p:last-child {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+
+.information p:last-child::after {
+  content: "→";
+  opacity: 0;
+  margin-left: 8px;
+  font-size: 24px;
+  transform: translateX(-6px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.information:hover p:last-child:after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+footer h2 {
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: 400;
+}
+footer p {
+  padding: 2px;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 12px;
+  color: grey;
+}

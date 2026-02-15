@@ -1,0 +1,79 @@
+:root {
+  --color: rgb(136, 86, 253);
+  --font-family: "Inter";
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  width: 90%;
+  max-width: 1200px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2rem;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  margin-inline: auto;
+  top: 10px;
+  border-radius: 20px;
+  opacity: 90%;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  width: 100%;
+  height: 50px;
+}
+
+.list_item {
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  position: relative;
+  padding: 10px 12px;
+  font-weight: 550;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+}
+.list_item:hover {
+  border: 2px solid var(--color);
+  border-radius: 999px;
+  padding: 10px 12px;
+  scale: 1.1;
+  transform: translateY(-1px);
+}
+a {
+  text-decoration: none;
+  scroll-behavior: smooth;
+  color: var(--color)
+}
+
+@keyframes slideIn {
+  from {
+    transform: translate(-55px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+@keyframes slideout {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-55px);
+  }
+}

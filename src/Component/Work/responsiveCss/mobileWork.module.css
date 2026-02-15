@@ -1,0 +1,123 @@
+
+.heading{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 2.5rem ;
+  font-family: "Inter";
+  color: rgb(72, 72, 72);
+}
+
+.card {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 2.5rem;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-inline: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  outline:  2px solid rgba(0, 0, 0, 0.06);
+
+}
+.card:hover {
+  transform: translateY(-1px);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
+
+.content > h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color:rgb(72, 72, 72);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+.content > p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.techstack {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 1.5rem;
+  margin-left: .5rem;
+}
+
+.techstack span {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background-color: #f1f5f9;
+  color: #334155;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+.link_demo {
+  height: 40px;
+  background-color: #0f172a;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 50%;
+  margin-inline: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+.link_demo:hover {
+  transform: translateY(-4px);
+}
+.link_demo:focus {
+  outline: none;
+}
+
+.link_git {
+  height: 40px;
+  background-color: #475569;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-right: 1rem;
+  border-radius: 999px;
+  transition: transform 0.3s ease;
+}
+
+.link_git:hover {
+  transform: translateY(-4px);
+}
