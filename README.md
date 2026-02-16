@@ -43,21 +43,9 @@ It highlights:
 - Vercel (Deployment)
 - Git & GitHub
 
----
 
-## 📂 Project Structure
 
-src/
-|
-|--component/
-|
-|--css/
-|
-|--image/
-|
-|--App.jsx
-|
-|--main.jsx
+
 
 ---
 
