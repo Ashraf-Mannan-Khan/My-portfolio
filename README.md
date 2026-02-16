@@ -48,13 +48,16 @@ It highlights:
 ## 📂 Project Structure
 
 src/
-│
-├── components/
-├── css/
-├── image/
-├── App.jsx
-└── main.jsx
-
+|
+|--component/
+|
+|--css/
+|
+|--image/
+|
+|--App.jsx
+|
+|--main.jsx
 
 ---
 
