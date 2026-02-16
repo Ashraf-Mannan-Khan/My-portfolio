@@ -65,7 +65,8 @@ It highlights:
 Clone the repository:
 
 
-git clone https://github.com/Ashraf-Mannan-Khan/your-portfolio-repo.git
-cd your-portfolio-repo
-npm install
-npm run dev
+- git clone https://github.com/Ashraf-Mannan-Khan/your-portfolio-repo.git
+
+- cd your-portfolio-repo
+- npm install
+- npm run dev
