@@ -28,7 +28,7 @@ export function MobileWork() {
 
             <div className={styles.action}>
               <a
-                href="#"
+                href="https://reddit-client-app-tau.vercel.app/"
                 className={styles.link_demo}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,7 +36,7 @@ export function MobileWork() {
                 Live-Demo
               </a>
               <a
-                href="#"
+                href="https://github.com/Ashraf-Mannan-Khan/reddit-client-app"
                 className={styles.link_git}
                 target="_blank"
                 rel="noopener noreferrer"
