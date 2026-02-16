@@ -10,7 +10,9 @@
   font-size: 22px;
   font-weight: 900;
   text-wrap: balance;
-  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .heading h2 {
