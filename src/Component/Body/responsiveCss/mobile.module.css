@@ -86,6 +86,7 @@ span:nth-child(2) {
 .btn_resume:hover {
     width: 150px;
     margin-right: 1rem;
+    text-decoration: none;
 }
 
 .btn_resume::after {
