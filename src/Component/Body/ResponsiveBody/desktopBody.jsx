@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 
 import styles from "../responsiveCss/desktop.module.css";
-import { Outlet } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export function DesktopBody(props) {
   const [text, setText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
+   const navigate = useNavigate();
   useEffect(() => {
     let message = "I am Ashraf Khan & I am frontend developer...";
     if (currentIndex < message.length) {
@@ -29,15 +30,23 @@ export function DesktopBody(props) {
             <span> they deserve</span>.
           </p>
           <p className={styles.paragraph}>
-            I am a Frontend developer from <span className={styles.india}><b>India</b></span>.
+            I am a Frontend developer from{" "}
+            <span className={styles.india}>
+              <b>India</b>
+            </span>
+            .
           </p>
           <p className={styles.paragraph}>
             I really enjoy shaping <span>visual experiences</span>, whether
             through <span>interface design</span>, <span>motion</span>, or
             carefully <span>crafted interactions</span>
           </p>
-          <button className={styles.btn_resume}>Resume</button>
-           <button className={styles.btn_resume}>Hire Me</button>
+          <button className={styles.btn_resume} onClick={() => navigate("/resume")}>Resume</button>
+          <button className={styles.btn_resume}>
+            <a href="https://wa.me/918574779556" target="_blank">
+              Hire Me
+            </a>
+          </button>
         </div>
         {props.children}
       </div>

@@ -55,11 +55,19 @@ html {
   scale: 1.1;
   transform: translateY(-1px);
 }
-a {
+.list_item a{
   text-decoration: none;
   scroll-behavior: smooth;
-  color: var(--color)
+  color: var(--color);
 }
+
+.list_item a:hover,
+.list_item a:focus,
+.list_item a:visited,
+.list_item a:active {
+  text-decoration: none;
+}
+
 
 @keyframes slideIn {
   from {

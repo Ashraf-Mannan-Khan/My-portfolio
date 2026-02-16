@@ -8,12 +8,12 @@ export function DesktopHeader() {
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li className={styles.list_item}>
-            <a href="/" className={styles.a}>
+            <a href="/" className={styles.anchor}>
               Home
             </a>
           </li>
           <li className={styles.list_item}>
-            <a href="#Desktoptools" className={styles.a}>
+            <a href="#Desktoptools" className={styles.anchor}>
              Tools
             </a>
           </li>
@@ -23,7 +23,7 @@ export function DesktopHeader() {
             </a>
           </li>
           <li className={styles.list_item}>
-            <a href="#contact" className={styles.a}>
+            <a href="#contact" className={styles.anchor}>
               Contact
             </a>
           </li>

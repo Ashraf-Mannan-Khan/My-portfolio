@@ -41,7 +41,11 @@ export function MobileBody(props) {
             carefully <span>crafted interactions</span>
           </p>
           <button className={styles.btn_resume}>Resume</button>
-          <button className={styles.btn_resume}>Hire Me</button>
+          <button className={styles.btn_resume}>
+            <a href="https://wa.me/918574779556" target="_blank">
+              Hire Me
+            </a>
+          </button>
         </div>
       </div>
     </>

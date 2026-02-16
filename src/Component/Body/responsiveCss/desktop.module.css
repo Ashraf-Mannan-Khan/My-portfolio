@@ -19,6 +19,7 @@
     font-size: clamp(1rem, 5vw, 3rem);;
     margin-bottom: 1rem;
     color: #303030;
+    border: none;
 }
 
 .paragraph {
@@ -95,4 +96,11 @@ span {
     transform: translateX(5px);
 
 }
+.btn_resume a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
+.btn_resume a:hover {
+    text-decoration: none;
+}

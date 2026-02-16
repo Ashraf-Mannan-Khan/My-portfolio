@@ -1,12 +1,13 @@
 .container {
   text-align: center;
-  margin: 10rem auto;
+  margin: 3rem auto;
+
 }
 
 .heading {
   margin-bottom: 2.5rem;
   font-family: "Inter";
-  font-size: clamp(12px, 3vw, 30px);
+  font-size: 22px;
   font-weight: 900;
   text-wrap: balance;
   margin-bottom: 2.5rem;
