@@ -95,6 +95,7 @@
 }
 .link_demo:hover {
   transform: translateY(-4px);
+  text-decoration: none;
 }
 .link_demo:focus {
   outline: none;
@@ -120,4 +121,5 @@
 
 .link_git:hover {
   transform: translateY(-4px);
+  text-decoration: none;
 }
