@@ -37,6 +37,7 @@ a:hover {
 }
 header {
   text-align: center;
+ 
 }
 header span {
   font-size: 2em;
@@ -65,4 +66,34 @@ li,
 } 
 tr {
   width: fit-content;
+}
+
+
+@media screen and (max-width: 568px){
+  header {
+    width: 100%; 
+  }
+
+  section {
+    width:100%;
+    padding: 1rem;
+    text-align: left;
+    
+  }
+  .entry {
+    text-align: center;
+  }
+  table {
+    padding-inline: 1rem ;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  td li {
+    text-align: center;
+    list-style-position: inside;
+  }
+
 }

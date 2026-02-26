@@ -142,12 +142,7 @@ export function Resume() {
                 <li>Fluent (speaking, reading, and writing)</li>
               </td>
             </tr>
-            <tr>
-              <td class="entry">Danish</td>
-              <td nowrap="">
-                <li>Elementary Proficiency (speaking, reading, and writing)</li>
-              </td>
-            </tr>
+          
           </tbody>
         </table>
 
