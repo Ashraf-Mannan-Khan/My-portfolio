@@ -5,7 +5,7 @@ export function Resume() {
     <>
       <header>
         <span>Ashraf Khan</span>
-        <nav>
+        <nav className="projects">
           <a href="https://ashraf-portfolio-khan-pi-62.vercel.app" target="_blank">
             Personal portfolio
           </a>
@@ -31,8 +31,8 @@ export function Resume() {
 
         <table>
           <tbody>
-            <tr>
-              <td class="entry">
+            <tr className="projects"> 
+              <td className="entry">
                 <a href="https://github.com/Ashraf-Mannan-Khan/reddit-client-app">Reddit Client Application </a>
               </td>
               <td nowrap="">
@@ -43,8 +43,8 @@ export function Resume() {
               </td>
             </tr>
 
-            <tr>
-              <td class="entry">
+            <tr className="projects">
+              <td className="entry">
                 <a href="https://github.com/ar5had/watchstock">Jamming</a>
               </td>
               <td nowrap="">
@@ -55,8 +55,8 @@ export function Resume() {
               </td>
             </tr>
 
-            <tr>
-              <td class="entry">
+            <tr className="projects">
+              <td className="entry">
                 <a href="https://github.com/Ashraf-Mannan-Khan/flash-card">Flash Card</a>
               </td>
               <td nowrap="">
@@ -73,8 +73,8 @@ export function Resume() {
 
         <table>
           <tbody>
-            <tr>
-              <td class="entry">
+            <tr className="projects">
+              <td className="entry">
                 2021 - 2024
                 <br />
                 LLB's degree
@@ -94,11 +94,11 @@ export function Resume() {
         <h1>Certifications</h1>
 
         <table>
-          <tbody>
+          <tbody className="project_body">
             
 
-            <tr>
-              <td class="entry">
+            <tr className="projects">
+              <td className="entry">
                 <br />
                 <a href="https://www.codecademy.com/profiles/AshrafMannankhan/certificates/2682884a0719474f96407efe432fdd87">
                   Front-end web development
@@ -111,8 +111,8 @@ export function Resume() {
               </td>
             </tr>
 
-            <tr>
-              <td class="entry">
+            <tr className="projects">
+              <td className="entry">
                 <br />
                 <a href="https://www.codecademy.com/profiles/AshrafMannankhan/certificates/56fb1e71303e37b643bb1905f31c8a09n">
                  TypeScript
@@ -136,8 +136,8 @@ export function Resume() {
 
         <table>
           <tbody>
-            <tr>
-              <td class="entry">English, Hindi and Urdu</td>
+            <tr className="projects">
+              <td className="entry">English, Hindi and Urdu</td>
               <td nowrap="">
                 <li>Fluent (speaking, reading, and writing)</li>
               </td>
@@ -150,8 +150,8 @@ export function Resume() {
 
         <table>
           <tbody>
-            <tr>
-              <td class="entry">Hobbies</td>
+            <tr className="projects">
+              <td className="entry">Hobbies</td>
               <td nowrap="">
                 <li>Passionate about design, fashion, music, and philosophy</li>
               </td>

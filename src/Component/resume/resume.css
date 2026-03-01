@@ -46,7 +46,8 @@ header span {
   text-align: center;
 }
 section {
-  width: 920px;
+  max-width: 920px;
+  width: 80%;
   margin: 0 auto;
 }
 .entry {
@@ -75,21 +76,28 @@ tr {
   }
 
   section {
-    width:100%;
+    width:90%;
     padding: 1rem;
     text-align: left;
     
   }
   .entry {
     text-align: center;
-  }
+  } 
   table {
     padding-inline: 1rem ;
-  }
-  tr {
+  } 
+  .project_body{
     display: flex;
     flex-direction: column;
-  
+    align-items: center;
+
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   td li {
     text-align: center;
